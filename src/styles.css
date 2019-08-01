@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio {
+  color: white;
+  font-weight: 900;
+  border: 1px solid #454545;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #8c8c8c;
+  margin: 42px;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.button {
+  background-color: rgb(1, 133, 133);
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.div1 {
+  background-color: #36d560;
+  width: 20px;
+  height: 20px;
+  margin: 10px 5px 10px 5px;
+}
+
+.div2 {
+  background-color: #fd314e;
+  width: 20px;
+  height: 20px;
+  margin: 10px 5px 10px 5px;
+}
